@@ -37,7 +37,7 @@ const data = [[
 ]]
 test('Test Logic File', function(t) {
   var actual = logic.checkAndFillter(value,data);
-  var expected =["Albania","Algeria"];
+  var expected =["Albania","Algeria",""];
   t.deepEqual(actual, expected,'TEST Logic File');
   t.end();
 });
