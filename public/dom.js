@@ -13,8 +13,9 @@
           xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
               value = xhr.responseText;
-              list(value);
               
+              list(value);
+
             }
           }
         }
